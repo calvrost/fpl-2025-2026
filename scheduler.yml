@@ -1,2 +1,0 @@
-schedule:
-  - cron: '0 2 * * *'
