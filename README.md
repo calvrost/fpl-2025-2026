@@ -6,3 +6,83 @@ Context
 This dataset contains a complete and up-to-date collection of player statistics for the current Fantasy Premier League (FPL) season. The data is fetched directly from the official FPL API and is automatically updated every day. It provides a rich source of information for FPL managers, data analysts, and football enthusiasts looking to perform in-depth analysis, build predictive models, or create insightful visualizations.
 
 Whether you're trying to find the most undervalued player, predict next week's top performers, or simply track player form, this dataset has all the metrics you need.
+
+Fantasy Premier League (FPL) - Data Dictionary
+
+assists: Total assists.
+bonus: Total bonus points.
+clean_sheets: Matches with no goals conceded.
+clean_sheets_per_90: Clean sheets per 90 mins.
+clearances_blocks_interceptions: Total clearances, blocks, and interceptions.
+club_name: Current club.
+corners_and_indirect_freekicks_order: Corner/indirect freekick priority.
+corners_and_indirect_freekicks_text: Set-piece duty text.
+cost_change_event: Price change in the current gameweek.
+cost_change_event_fall: Price fall in the current gameweek.
+cost_change_start: Total price change since season start.
+cost_change_start_fall: Total price fall since season start.
+creativity: Chance creation metric.
+creativity_rank: Rank by Creativity score.
+creativity_rank_type: Positional rank by Creativity score.
+defensive_contribution: Overall defensive actions metric.
+defensive_contribution_per_90: Defensive actions per 90 mins.
+direct_freekicks_order: Direct freekick priority.
+direct_freekicks_text: Direct freekick duty text.
+dreamteam_count: Times in weekly "Dream Team".
+event_points: Points in the last gameweek.
+expected_assists (xA): Likelihood of an assist.
+expected_assists_per_90: Expected assists per 90 mins.
+expected_goal_involvements (xGI): Sum of xG and xA.
+expected_goal_involvements_per_90: Expected goal involvements per 90 mins.
+expected_goals (xG): Likelihood of scoring.
+expected_goals_conceded (xGC): Expected goals conceded while on pitch.
+expected_goals_conceded_per_90: Expected goals conceded per 90 mins.
+expected_goals_per_90: Expected goals per 90 mins.
+form: Average points over the last 30 days.
+form_rank: Rank by Form score.
+form_rank_type: Positional rank by Form score.
+goals_conceded: Goals conceded while player was on pitch.
+goals_conceded_per_90: Goals conceded per 90 mins.
+goals_scored: Total goals scored.
+ict_index: Combined score of Influence, Creativity, and Threat.
+ict_index_rank: Rank by ICT Index score.
+ict_index_rank_type: Positional rank by ICT Index.
+influence: Player's match impact metric.
+influence_rank: Rank by Influence score.
+influence_rank_type: Positional rank by Influence score.
+minutes: Total minutes played.
+news: Latest player news (e.g., injury).
+now_cost: Current price in millions.
+now_cost_rank: Rank by current price.
+now_cost_rank_type: Positional rank by price.
+own_goals: Total own goals scored.
+penalties_missed: Total penalties missed.
+penalties_order: Penalty taker priority.
+penalties_saved: Penalties saved (Goalkeepers only).
+penalties_text: Penalty-taking duty text.
+player_name: Player's full name.
+points_per_game: Average points per match.
+points_per_game_rank: Rank by points per game.
+points_per_game_rank_type: Positional rank by points per game.
+position_name: Player's position (GKP, DEF, MID, FWD).
+recoveries: Total ball recoveries.
+red_cards: Total red cards received.
+saves: Total saves made (Goalkeepers only).
+saves_per_90: Saves per 90 mins.
+selected_by_percent: Percentage of FPL managers who own the player.
+selected_rank: Rank by selection percentage.
+selected_rank_type: Positional rank by selection percentage.
+starts: Number of matches started.
+starts_per_90: Starts per 90 mins.
+tackles: Total tackles made.
+threat: Goal scoring likelihood metric.
+threat_rank: Rank by Threat score.
+threat_rank_type: Positional rank by Threat score.
+total_points: Total FPL points this season.
+transfers_in: Total transfers in this season.
+transfers_in_event: Transfers in during the current gameweek.
+transfers_out: Total transfers out this season.
+transfers_out_event: Transfers out during the current gameweek.
+value_form: Value based on recent form/price.
+value_season: Value based on total points/price.
+yellow_cards: Total yellow cards received.
